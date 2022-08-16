@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.mycompany</groupId>
-	<artifactId>mule-domain-app</artifactId>
+	<artifactId>mule-domain-app-v1</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-domain</packaging>
 
@@ -28,7 +28,7 @@
 					<standaloneDeployment>
 						<muleHome>${mule.home.test}</muleHome>
 						<muleVersion>${app.runtime}</muleVersion>
-						<applicationName>mulesoft-cicd-onprem</applicationName>
+						<applicationName>mule-domain-app</applicationName>
 					</standaloneDeployment>
 				</configuration>
 			</plugin>
